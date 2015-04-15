@@ -51,8 +51,8 @@ public class Prenotazione {
 
 		@Override
 		public String toString() {
-			return "Prenotazione [codice=" + codice + ", posti=" + postiRichiesti + ", cliente="
-					+ cliente + "Filiale=" +filiale+ ","+"Codice del pacchetto: "
+			return "codice prenotazione: " + codice + ", posti richiesti: " + postiRichiesti + ", cliente: "
+					+ cliente + "  filiale: " +filiale+ ","+"Codice del pacchetto: "
 					+pacchetto.getCodice()+", Descrizione del pacchetto: "+pacchetto.getDescrizione()+"]";
 			//Non uso direttamente il toString() di pacchetto perchè stamperebbe tutto il vettore di prenotazioni
 		}

@@ -29,7 +29,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", cognome=" + cognome +"]";
+		return this.nome + "  "+ this.cognome;
 	}
 
 }

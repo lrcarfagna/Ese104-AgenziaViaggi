@@ -17,7 +17,7 @@ public class Filiale {
 
 	@Override
 	public String toString() {
-		return "Filiale [numero=" + numero + "]";
+		return  "numero:" +numero;
 	}
 	
 
